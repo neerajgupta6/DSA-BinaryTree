@@ -43,12 +43,7 @@ public class BinaryTree1 {
     public static void main(String[] args) {
         BinaryTree1 tree = new BinaryTree1();
 
-        // Build this tree:
-        //      1
-        //     / \
-        //    2   3
-        //   / \
-        //  4   5
+        
 
         tree.root = new Node(1);
         tree.root.left = new Node(2);
